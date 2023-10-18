@@ -1,0 +1,57 @@
+.hero__card {
+    margin: 50px 30px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.blogSlider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+}
+
+.blogBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #B8D9EC;
+    color: #000;
+    padding: 50px 30px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.blogBanner .description {
+    text-align: center;
+}
+
+.read-btn {
+    min-width: 25%;
+    text-align: center;
+}
+
+.slider__index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.slider__index .index {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.index:hover {
+    background-color: #00aaff;
+    transform: scale(1.2);
+}
+
